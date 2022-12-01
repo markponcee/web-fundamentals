@@ -1,0 +1,28 @@
+h2{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.red{
+    color:#f7e1a8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.blue{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+table ul li.special{
+    color:brown;
+}
+
+#ironman{
+    text-decoration: underline;
+    color:blue;
+}
+
+

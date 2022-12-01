@@ -1,0 +1,29 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding-left: 12px;
+
+}
+
+h1 span {
+    color: cyan;
+}
+
+h2 {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    background-color: #92b3e8;
+    text-align: right;
+    text-decoration: underline;
+    padding-right: 12px;
+
+}

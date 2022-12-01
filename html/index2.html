@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+   
+    <!-- //Ordered List -->
+    <table border="5">
+        <tr>
+            <td> <h2 class="red">LIST OF FAVORITE MOVIES</h2> </td>
+            <td> <h2 class="blue"><li>TEXT</li>
+                LIST OF FAVORITE ANIME</h2></td>
+        </tr>
+        <tr>
+            <td>
+                <ol type="I">
+                    <li class="blue">STAR WARS EPISODE III</li>
+                    <li>KINGSMAN</li>
+                    <li id="ironman">AVENGERS</li>
+                    <li  id="incep">INCEPTION</li>
+                    <li>DARK KNIGHT RISES</li>
+                </ol>
+           </td>
+            <td> 
+                <ul type="triangle">
+                    <li class="blue">One Piece</li>
+                    <li>SPY X FAMILY</li>
+                    <li class="special">ONE PUNCHMAN</li>
+                    <li>Chainsaw Man</li>
+                    <li>Naruto</li>
+                </ul>
+           </td>
+        </tr>
+    </table>
+    <hr>
+    <h1>MY REGISTRATION FORM</h1>
+    <form action="process.html" method="GET">
+        <label for="firstname">Enter your Firstname here:</label>
+        <input type="text" name="ere" placeholder="FIRSTNAME GOES HERE">
+        <br>
+        <label for="lastname">Enter your lastname here:</label>
+        <input type="text" placeholder="LASTNAME GOES HERE">
+        <br>
+        <label for="email">Enter your Email here:</label>
+        <input type="email" placeholder="Email GOES HERE">
+        <br>
+        <label for="bdate">Enter your birth date here:</label>
+        <input type="date">
+        <br>
+        <label for="bdate">Enter your password here:</label>
+        <input type="password" name="pw">
+        <br>
+        <label for="bdate">Re-Enter your password here:</label>
+        <input type="password" >
+        <br>
+        <label for="bdate">SELECT YOUR RELIGION:</label>
+        <select>
+            <option>--CHOOSE HERE--</option>
+            <option>ROMAN CATHOLIC</option>
+            <option>MUSLIM</option>
+            <option>INC</option>
+        </select>
+        <br>
+        <label for="bdate">SELECT YOUR GENDER:</label>
+        <input type="radio" name="gen"> <label for="male">MALE </label>
+        <input type="radio" name="gen"> <label for="female">FEMALE </label>
+        <input type="radio" name="gen"> <label for="other">OTHER </label>
+        <br>
+        <label for="bdate">EDUCATIONAL ATTAINMENT</label>
+        <input type="checkbox" > <label for="primary">PRIMARY </label>
+        <input type="checkbox" > <label for="secondary">SECONDARY </label>
+        <input type="checkbox" > <label for="tertiary">TERTIARY </label>
+        <br>
+        <label for="bdate">ADDRESS</label>
+        <textarea>
+        </textarea>
+        <br>
+        <input type="submit">
+       
+    </form>
+
+</body>
+</html>
+

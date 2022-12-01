@@ -1,0 +1,46 @@
+-11/7
+<article> - paragraphs (seo)
+	<p> - paragraphs
+
+<div> - division of content
+<img>
+<img src="site link"></img> - img frm hyperlink
+<img src="/img.burger.jpg></img> - img for local pic
+alt+type- shotkey for multiple typing
+hold control /- comment
+ctrl+/ -> comments
+
+references:
+-google
+-w3schools.com
+-stackoverflow
+-discord
+
+-11/9
+<ol type="a/A/I/i"> -> list type
+<ul type="square/triangle"> - list type
+
+<table></table> - table
+<tr></tr> -table row
+<hr> - divide content
+<form></form> - registration form
+<label></label> - label name
+<input type="text" placeholder="FIRST NAME GOES HERE"> -input box
+<input type="date"> - input box with no label
+
+ctrl + space - form options insdie 
+<label type="text/email">
+<form action="process.html" method="GET"> - submit button/data processing
+*avoid get / use post
+
+
+
+
+
+
+
+
+
+
+
+
